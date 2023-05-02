@@ -1,7 +1,7 @@
 // // CLASS 13 | OOPs AND CLASSES
 // class Product {
 //     constructor(title, amount, description) { // round brackets main object key ki values aayengi as a parameter
-//         this.title = title; // ... jo = ke baad assign honge fro e.g (title ke andr)
+//         this.title = title; // ... jo = ke baad assign hongi for e.g (title ke andr)
 //         this.price = amount;
 //         this.details = description;
 //     }
@@ -100,7 +100,7 @@
 // const hamza = new Student("Hamza Iqbal", 1234, 01, "Javascript");
 // const shahzad = new Volunteer("Shahzad Iqbal", 1235, 01, "Javascript");
 // hamza.markAttendence()
-// // hamza.addVolunteerSkill("HTML") // Output: error bcuz hamza main ye function hi nhi dia hai 
+// // hamza.addVolunteerSkill("HTML") // Output: error bcuz hamza main ye function hi nhi dia hai
 // shahzad.markAttendence()
 // shahzad.addVolunteerSkill("HTML")
 // shahzad.addVolunteerSkill("CSS")
@@ -115,5 +115,5 @@
 // // console.log(students);
 // console.log(hamza.rollNo);
 // // console.log(shahzad.allVolunteerSkills);
-// // shahzad.haveVolunteered = "CSS" 
+// // shahzad.haveVolunteered = "CSS"
 // // console.log(shahzad._haveVolunteered);
