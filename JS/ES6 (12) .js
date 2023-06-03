@@ -1,4 +1,4 @@
-// CLASS 12 | ES6
+ // CLASS 12 | ES6
 
 // // Arrow functions
 
@@ -110,7 +110,7 @@
 // }
 
 // const products = [obj, obj2];
-// products.forEach(p => console.log(p.name)); // Output: 2nd one will be showing undefined
+// products.forEach(p => console.log(p.name)); // Output: 2nd one will be showing undefined bcuz of different in keys name
 
 // class Product {
 //     constructor(title, price) {

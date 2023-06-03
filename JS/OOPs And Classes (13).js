@@ -1,6 +1,6 @@
 // // CLASS 13 | OOPs AND CLASSES
 // class Product {
-//     constructor(title, amount, description) { // round brackets main object key ki values aayengi as a parameter
+//     constructor(title, amount, description) { // round brackets main object key ki values aayengi as a parameter ...
 //         this.title = title; // ... jo = ke baad assign hongi for e.g (title ke andr)
 //         this.price = amount;
 //         this.details = description;
@@ -14,9 +14,9 @@
 //     price: 1200,
 //     details: "Good"
 // }
-// console.log(product1, product2, product3);
-// // console.log(product1 instanceof Product);
-// console.log(product3 instanceof Product);
+// // console.log(product1, product2, product3);
+// // // console.log(product1 instanceof Product); // true // kya ye class Product se hi bana?
+// console.log(product3 instanceof Product); // false
 
 // class Shape {
 //     constructor(id, x, y) {
@@ -26,15 +26,15 @@
 
 //         // this.move(x, y)
 //     }
-//     move(x, y) { // ... jabke ye aesa nhi karega method isi tarh banne chahiye classes main
+//     move(x, y) { // ... jabke ye aesa nhi karega method isi tarh banne chahiye classes main jo ab prototype main jaake save hojayega
 //         this.x = x
 //         this.y = y
 //     }
 // }
 // const square = new Shape("Square", 5, 6);
 // const rectangle = new Shape("Rectangle", 5, 6);
-// square.move(5, 6);
-// rectangle.move(6, 5);
+// square.move(5, 6); // rectangle mainn x aur y nhi milega bcuz sirf square ke saath move ko call krwaya hai aur ooper bhi nhi kia call this.move krke
+// // rectangle.move(6, 5);
 // console.log(square, rectangle);
 
 // const product3 = {
@@ -43,7 +43,7 @@
 //     details: "Good"
 // }
 // console.log(product3)
-// // Prototype main objects ke methods hote hain properties hoti hain uski apni aur jo bhi additional hoota hia wo sb
+// // Prototype main objects ke apne methods hote hain apni properties hoti hain uski apni aur jo bhi additional hoota hia wo sb
 
 // const students = [];
 // class Student {
@@ -71,7 +71,7 @@
 // class Volunteer extends Student { // extend means uski tamam properties iske andr daaldo
 //     static data = "IT IS A STATIC DATA"; // it is a static property
 //     constructor(fullName, rollNo, batch, subject) {
-//         super(fullName, rollNo, batch, subject); // super() call krta hai constructor ko means
+//         super(fullName, rollNo, batch, subject); // super() call krta hai constructor ko means parent ke constructor ko
 //         this._haveVolunteered = "HTML";
 //         this.canVolunteerIn = [];
 //     }
@@ -91,7 +91,7 @@
 //     //     }
 //     // }
 
-//     // static sayYourName() { // it is a static method
+//     // static sayYourName() { // it is a static method jis ko call krte waqt new nhi likhna prtaa
 //     //     console.log("Volunteer")
 //     // }
 // }

@@ -1,6 +1,17 @@
 // CLASS 05 | ARRAYS AND ITS METHODS
 
-// let arr = ["Apple", "Orange", "Mango"]
+let arr = ["Apple", "Orange", "Mango"]
+// arr.push() // add value at the last index
+// arr.pop() // remove last index
+// arr.shift() // remove first index of an array
+// arr.unshift() // add value at the first index
+// // arr.length = 3;
+// // arr.splice(2, 1, 4, 5) // {from which index, deletecount}: remove or replace values
+// let newArr = arr.slice(0, 1) // {from which index, how many?}: provide new copy of array
+// console.log(arr)
+// console.log(newArr)
+
+
 // arr.forEach() // loop through array values
 // arr.forEach(function (val, index, arr) { // arr parameter is not use too much
 //     console.log(index, val);
@@ -24,7 +35,7 @@
 // let arr = [1, 9, 3, 4, 5, 6, 8, 2, 10];
 // let sortedArr = arr.sort(function (a, b) {
 //     // if (a > b) {
-//     //     return 1;
+//     //     return 1; // 1 mtlb sb thk hai 
 //     if (a < b) {
 //         return 1;
 //     } else {
@@ -36,9 +47,9 @@
 
 // reduce():
 // let arr = [1, 9, 3, 4, 5, 6, 8, 2, 10];
-// let totalArr = arr.reduce(function (prevVal, curVal) {
+// let totalArr = arr.reduce(function (prevVal, curVal) { // phr next time previous main isko wo milega jo return hua hoga  
 //     return prevVal + curVal;
-// }, 0);
+// }, 0); // ye jo zero (end result hamara) paas kia hai ye hamain first time dega previous value main
 // console.log(totalArr);
 
 // let arr = ["Happy", "Birthday", "Anas"];

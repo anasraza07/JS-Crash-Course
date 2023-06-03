@@ -15,7 +15,7 @@
 // runAfter1Sec();
 // console.log("Hello Pakistan");
 
-// Callbacks : ye hote hain functions | wo functions jo async behaviour main hamara kaam complete hone ke baad chalte hain
+// Callbacks : ye hote hain functions | wo functions jo async behaviour main hamara kaam complete hone ke baad chalte hain | jisko ham chalaate hain jb hamara kaam comp hojaata hai | jis function ko ham as a parameter pass krte hain
 // function runAfter1Sec(val, cb) {
 //     setTimeout(function () {
 //         // console.log("done")

@@ -52,7 +52,7 @@
 // // user se input leke save krwaana:
 // let prevStudents = localStorage.getItem("students"); // get from localStorage
 // // console.log(prevStudents)
-// let students = prevStudents ? JSON.parse(prevStudents) : []; // ab agr localStorage main kch nhi hogaa to ye null dega | null ka mtlb hai khaali kch nhi jaga hai lekin wo empty hai, so null is false | au agr koi bhi data aajata hai to wo if ke andr true show karegaaa.
+// let students = prevStudents ? JSON.parse(prevStudents) : []; // ab agr localStorage main kch nhi hogaa to ye null dega | null ka mtlb hai khaali kch nhi jaga hai lekin wo empty hai, so null is false | aur agr koi bhi data aajata hai to wo if ke andr true show karegaaa.
 // function provideStudents() {
 //     let stdObj = {
 //         name: prompt("Enter Name"),
@@ -62,13 +62,13 @@
 //     }
 //     students.push(stdObj);
 //     console.log(students);
-//     let stringify = JSON.stringify(students) // converted to String
-//     localStorage.setItem("students", stringify) // saved to LocalStorage
+//     let stringify = JSON.stringify(students) // converting obj into string from
+//     localStorage.setItem("students", stringify) // {key, value  }: saved to LocalStorage (only in string form)
 // }
 // // localStorage.setItem("name", "anas");
 
 // let obj = {name: "anas"};
 // obj.name = "ubaid";
-// delete obj.name; // delete keyword returns boolean value
+// delete obj.name; // delete keyword returns boolean value and delete the key.
 
 // console.log(obj)
